@@ -20,6 +20,7 @@ public class Test1 {
         List<User> users = userDao.selectAll();
         for (User user : users) {
             System.out.println(user);
+             System.out.println("aaa");
         }
     }
 
